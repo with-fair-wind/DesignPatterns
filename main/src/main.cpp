@@ -3,6 +3,8 @@
 #include <Demo/demo_builder.h>
 #include <Demo/demo_prototype.h>
 #include <Demo/demo_adapter.h>
+#include <Demo/demo_bridge.h>
+#include <Demo/demo_composite.h>
 
 int main()
 {
@@ -11,6 +13,8 @@ int main()
     // Demo_Factory::demo_v2();
     // Demo_Builder::demo_v1();
     // Demo_Prototype::demo_v1();
-    Demo_Adapter::demo_v1();
+    // Demo_Adapter::demo_v1();
+    // Demo_Bridge::demo_v1();
+    Demo_Composite::demo_v1();
     return 0;
 }
