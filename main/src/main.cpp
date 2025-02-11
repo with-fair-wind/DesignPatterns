@@ -6,6 +6,7 @@
 #include <Demo/demo_bridge.h>
 #include <Demo/demo_composite.h>
 #include <Demo/demo_decorator.h>
+#include <Demo/demo_facade.h>
 
 int main()
 {
@@ -18,6 +19,7 @@ int main()
     // Demo_Bridge::demo_v1();
     // Demo_Composite::demo_v1();
     // Demo_Decorator::demo_v1();
-    Demo_Decorator::demo_v2();
+    // Demo_Decorator::demo_v2();
+    Demo_Facade::demo_v1();
     return 0;
 }
