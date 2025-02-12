@@ -7,6 +7,7 @@
 #include <Demo/demo_composite.h>
 #include <Demo/demo_decorator.h>
 #include <Demo/demo_facade.h>
+#include <Demo/demo_proxy.h>
 
 int main()
 {
@@ -20,6 +21,7 @@ int main()
     // Demo_Composite::demo_v1();
     // Demo_Decorator::demo_v1();
     // Demo_Decorator::demo_v2();
-    Demo_Facade::demo_v1();
+    // Demo_Facade::demo_v1();
+    Demo_Proxy::demo_v1();
     return 0;
 }
