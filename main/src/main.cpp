@@ -25,5 +25,6 @@ int main()
     // Demo_Facade::demo_v1();
     // Demo_Proxy::demo_v1();
     Demo_Chain::demo_v1();
+    // Demo_Chain::demo_v2();
     return 0;
 }
