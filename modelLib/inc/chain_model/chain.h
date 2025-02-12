@@ -4,7 +4,7 @@
 
 namespace Model_Chain
 {
-    enum class LogLevel
+    enum class LogLevel : char
     {
         DEBUG,
         INFO,
@@ -62,6 +62,7 @@ namespace Model_Chain
     public:
         Requester() = default;
         Requester(std::shared_ptr<Logger> logger) : m_logger{logger} {}
+        void setLogger(std::shared_ptr<Logger> logger) { m_logger = logger; }
         void request(LogLevel level, const std::string &msg) { m_logger->logMessage(level, msg); }
 
     private:
