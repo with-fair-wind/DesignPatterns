@@ -19,7 +19,7 @@ namespace Model_Proxy
     class Speaker : public Communication
     {
     public:
-        void communicate()
+        void communicate() override
         {
             cout << "开始说话..." << endl;
             cout << "通话时发生了一些列的表情变化..." << endl;
@@ -44,7 +44,6 @@ namespace Model_Proxy
 
         void communicate() override
         {
-
             if (CheckAccess())
             {
                 m_speaker->communicate();
